@@ -1,0 +1,161 @@
+.App {
+  text-align: center; }
+
+.App-logo {
+  width: 150px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px; }
+
+.App-header {
+  background: url("images/headerBg.jpg");
+  height: 150px;
+  padding: 20px;
+  color: #ffffff; }
+
+.App-intro {
+  font-size: large;
+  color: #ffffff; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0; }
+  .navbar a {
+    color: #999999; }
+    .navbar a:hover, .navbar a:active {
+      color: #ffffff; }
+  .navbar .dropdown-menu a {
+    color: #000000; }
+    .navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:active {
+      color: #000000;
+      font-weight: bold; }
+
+.panel {
+  background: rgba(0, 0, 0, 0.7);
+  border-color: transparent;
+  margin-top: 50px; }
+  .panel .movie-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff; }
+    .panel .movie-title .movie-tagline {
+      font-size: 15px;
+      color: #e6e6e6;
+      text-transform: none;
+      font-weight: bold; }
+  .panel .movie-description {
+    color: #ffffff; }
+  .panel .meta-data {
+    margin-top: 100px; }
+    .panel .meta-data h1 {
+      font-size: 20px;
+      color: #ffffff; }
+    .panel .meta-data span {
+      font-size: 15px;
+      color: #e6e6e6; }
+    .panel .meta-data a {
+      color: #13a000; }
+      .panel .meta-data a:hover, .panel .meta-data a:active {
+        color: #13a000; }
+  .panel .image-similar {
+    cursor: pointer; }
+  .panel .search-container {
+    margin-top: 40px; }
+    .panel .search-container .form-control {
+      background-color: transparent;
+      border: 0;
+      border-bottom: 1px solid #ffffff;
+      border-radius: 0;
+      color: #ffffff; }
+      .panel .search-container .form-control:focus {
+        box-shadow: none; }
+    .panel .search-container .input-group-addon {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #ffffff;
+      color: #ffffff;
+      border-radius: 0;
+      padding: 6px 0; }
+  .panel .dropdown {
+    position: absolute;
+    top: 15px;
+    right: 15px; }
+  .panel .btn-default {
+    color: #ffffff;
+    background-color: transparent;
+    border: none; }
+    .panel .btn-default:focus, .panel .btn-default:active {
+      color: #ffffff;
+      background-color: transparent;
+      border: none;
+      box-shadow: none; }
+  .panel .btn-group.open .dropdown-toggle {
+    border-radius: 0;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    box-shadow: none; }
+  .panel .dropdown-menu {
+    background-color: #000000;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    right: 0;
+    left: unset; }
+    .panel .dropdown-menu > li {
+      text-align: center; }
+      .panel .dropdown-menu > li > a {
+        color: #ffffff; }
+        .panel .dropdown-menu > li > a:hover {
+          background-color: #000000;
+          color: #ffffff;
+          font-weight: bold; }
+
+@media (max-width: 768px) {
+  .movie-image-container {
+    margin-top: 15px; } }
+
+@media (min-width: 768px) {
+  .movie-image-container {
+    padding: 0;
+    margin: -16px; } }
+
+.search-results {
+  padding: 0; }
+  .search-results li {
+    color: #ffffff;
+    list-style: none;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px; }
+    .search-results li:hover {
+      font-weight: bold;
+      background-color: #262626; }
+
+.movies-list h1 {
+  color: #ffffff; }
+
+.movies-list p {
+  color: #ffffff; }
+
+.movies-list .card-list {
+  height: 275px; }
+
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    background-image: url("images/background.jpg"); }
+
+.no-padding div.col-xs-2 {
+  padding-left: 0; }
