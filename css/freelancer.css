@@ -369,12 +369,17 @@ footer .footer-col.footer-logo .logo .j{
   transform: scale(.95);
   margin: -150px -20px; }
 footer .footer-col.footer-logo .logo .j .j-1{
-  background: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,18bc9c+50 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left,  #ffffff 75%, #18bc9c 75%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #ffffff 75%,#18bc9c 75%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffffff 75%,#18bc9c 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#18bc9c',GradientType=1 ); /* IE6-9 */
   position: absolute;
   height: 80px;
-  width: 185px;
+  width: 270px;
   z-index: 1;
-  margin: 2px 76px;
+  margin: 12px 55px;
   -webkit-transform: rotate(30deg) skew(-30deg);
   -ms-transform: rotate(30deg) skew(-30deg);
   transform: rotate(30deg) skew(-30deg); }
@@ -413,19 +418,9 @@ footer .footer-col.footer-logo .logo .g{
   -webkit-transform: scale(.95);
   -ms-transform: scale(.95);
   transform: scale(.95);
-  margin: -60px 230px; }
+  margin: -109px 135px; }
 footer .footer-col.footer-logo .logo .g .g-1{
-  background: #fff;
-  position: absolute;
-  height: 80px;
-  width: 155px;
-  margin-left: -2px;
-  z-index: 2;
-  -webkit-transform: rotate(30deg) skew(-30deg);
-  -ms-transform: rotate(30deg) skew(-30deg);
-  transform: rotate(30deg) skew(-30deg); }
-footer .footer-col.footer-logo .logo .g .g-2{
-  background: #fff;
+  background: #18BC9C;
   position: absolute;
   height: 80px;
   width: 95px;
@@ -433,18 +428,8 @@ footer .footer-col.footer-logo .logo .g .g-2{
   -webkit-transform: rotate(90deg) skew(30deg);
   -ms-transform: rotate(90deg) skew(30deg);
   transform: rotate(90deg) skew(30deg); }
-footer .footer-col.footer-logo .logo .g .g-3{
-  background: #fff;
-  position: absolute;
-  height: 80px;
-  width: 369px;
-  z-index: 1;
-  margin: 146px -175px;
-  -webkit-transform: rotate(90deg) skew(30deg);
-  -ms-transform: rotate(90deg) skew(30deg);
-  transform: rotate(90deg) skew(30deg); }
-footer .footer-col.footer-logo .logo .g .g-4{
-  background: #fff;
+footer .footer-col.footer-logo .logo .g .g-2{
+  background: #18BC9C;
   position: absolute;
   height: 81px;
   width: 91px;
@@ -452,8 +437,8 @@ footer .footer-col.footer-logo .logo .g .g-4{
   -webkit-transform: rotate(-30deg) skew(30deg);
   -ms-transform: rotate(-30deg) skew(30deg);
   transform: rotate(-30deg) skew(30deg); }
-footer .footer-col.footer-logo .logo .g .g-5{
-  background: #fff;
+footer .footer-col.footer-logo .logo .g .g-3{
+  background: #18BC9C;
   position: absolute;
   height: 79px;
   width: 245px;
@@ -461,8 +446,8 @@ footer .footer-col.footer-logo .logo .g .g-5{
   -webkit-transform: rotate(30deg) skew(-30deg);
   -ms-transform: rotate(30deg) skew(-30deg);
   transform: rotate(30deg) skew(-30deg); }
-footer .footer-col.footer-logo .logo .g .g-6{
-  background: #fff;
+footer .footer-col.footer-logo .logo .g .g-4{
+  background: #18BC9C;
   position: absolute;
   height: 80px;
   width: 157px;
